@@ -441,7 +441,7 @@ class ReactNativeModal extends Component {
     let panHandlers = {};
     let panPosition = {};
     if (this.state.isSwipeable) {
-      panHandlers = { ...this.panResponder.panHandlers };
+      panHandlers = { };
       panPosition = this.state.pan.getLayout();
     }
 
